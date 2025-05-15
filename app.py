@@ -18,7 +18,7 @@ app = FastAPI(
 
 # Load the trained model
 try:
-    model = joblib.load("Model_p8_99.pkl")
+    model = joblib.load("Model_p11.pkl")
     logger.info("Model loaded successfully")
 except Exception as e:
     logger.error(f"Failed to load model: {str(e)}")
